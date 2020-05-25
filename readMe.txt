@@ -5,9 +5,10 @@ software requirements:
 
 Please follow below instruction to Run this app:
 1: clone app to local 
-2: Cd news-app
-3: npm install
-4: npm start
+2: open project in command promt/terminal
+3: Cd news-app
+4: npm install
+5: npm start
 
 Components:
 
