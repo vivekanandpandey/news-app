@@ -10,7 +10,7 @@ const newsReducer = (state=initialState,action)=>{
         return{
             ...state,
             news:[...state.news,...action.payload],
-            pageViewNews:[...action.payload]
+            pageViewNews:JSON.parse(JSON.stringify([...action.payload]))
         }
         case "SET_PAGE_VIEW_NEWS":
         return{
