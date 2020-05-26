@@ -7,7 +7,8 @@ Please follow below instruction to Run this app:
 1: clone app to local 
 2: open project in command promt/terminal
 3: npm install
-4: npm start
+4: npm run build
+5: npm start server/server.js
 
 Components:
 
